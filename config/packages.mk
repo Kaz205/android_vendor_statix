@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease
 endif
 
+# Navbar
+PRODUCT_PACKAGES += \
+    NavigationBarNoHintOverlay
+
 # Updaters
 ifeq ($(STATIX_BUILD_TYPE),OFFICIAL)
 PRODUCT_PACKAGES += \
