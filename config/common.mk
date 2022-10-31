@@ -93,6 +93,11 @@ include vendor/statix/config/branding.mk
 # Bootanimation
 include vendor/statix/config/bootanimation.mk
 
+# Enable whole-program R8 Java optimizations for SystemUI and system_server,
+# but also allow explicit overriding for testing and development.
+SYSTEM_OPTIMIZE_JAVA ?= true
+SYSTEMUI_OPTIMIZE_JAVA ?= true
+
 # Fonts
 include vendor/statix/config/fonts.mk
 
