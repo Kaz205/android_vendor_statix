@@ -238,15 +238,8 @@ def get_repositories():
 
 def main():
     """
-    Entry point. Creates a local manifest directory and/or local manifest file if there isn't one,
-    then creates a local manifest and repo syncs.
+    Entry point. Repo syncs.
      """
-
-    if not os.path.isdir(LOCAL_MANIFESTS_PATH):
-        os.makedirs(LOCAL_MANIFESTS_PATH)
-    if not os.path.isfile(f"{LOCAL_MANIFESTS_PATH}{LOCAL_MANIFESTS_FILE_NAME}"):
-        with open(f"{LOCAL_MANIFESTS_PATH}{LOCAL_MANIFESTS_FILE_NAME}", "w"):
-            pass
 
     if not DEPSONLY:
         print(
