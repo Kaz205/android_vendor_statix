@@ -18,15 +18,6 @@
 PRODUCT_PACKAGES += \
     CertifiedPropsOverlay
 
-# Fonts
-PRODUCT_PACKAGES += \
-    FontDMSansOverlay \
-    FontHarmonyOSSansOverlay \
-    FontInterOverlay \
-    FontManropeOverlay \
-    FontQuicksandOverlay \
-    FontSwitzerOverlay
-
 # Icon packs
 PRODUCT_PACKAGES += \
     IconPackCircularAndroidOverlay \
